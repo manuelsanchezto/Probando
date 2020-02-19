@@ -19,3 +19,8 @@ admin:
     (Cambiar:
       /admin                        por la ruta que se quiera utilizar que esté dentro del controller
       AppBundle:AdminController     por el controller que se vaya a utilizar)
+
+
+## V2.1: Añadido un logout si alguien apunta a /logout:
+
+Pero esto tendrá que hacerse mediante un enlace externo
