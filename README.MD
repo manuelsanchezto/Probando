@@ -12,7 +12,9 @@ lo cual permite acceder a  la ruta /addUserAdminBase, que crea un usuario "admin
 
   
 admin:
+
     path:     /admin
+    
     defaults: { _controller: AppBundle:AdminController }
     
     (Cambiar:
