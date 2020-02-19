@@ -9,3 +9,6 @@ login:
 admin:
     path:     /admin
     defaults: { _controller: AppBundle:AdminController }
+    
+logout:
+    path: /logout
