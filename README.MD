@@ -5,3 +5,14 @@ Para que funcione sólo es necesario copiar los archivos en los directorios en l
 \- { path: '^/', roles: IS_AUTHENTICATED_ANONYMOUSLY }
 
 lo cual permite acceder a  la ruta /addUserAdminBase, que crea un usuario "admin" con contraseña "alumno" con el que poder acceder, y después devolver el access control al estado que aparece. 
+
+V2.0: Cuidado con lo que se ha añadido en la parte de app:
+
+  
+admin:
+    path:     /admin
+    defaults: { _controller: AppBundle:AdminController }
+    
+    (Cambiar:
+      /admin                        por la ruta que se quiera utilizar que esté dentro del controller
+      AppBundle:AdminController     por el controller que se vaya a utilizar)
