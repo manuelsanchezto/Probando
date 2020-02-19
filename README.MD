@@ -10,10 +10,11 @@ lo cual permite acceder a  la ruta /addUserAdminBase, que crea un usuario "admin
 
 ## V2.0: Cuidado con lo que se ha añadido en la parte de app:
 
-  
+```  
 admin:
     path: /admin    
     defaults: { _controller: AppBundle:AdminController }
+```
     
     (Cambiar:
       /admin                        por la ruta que se quiera utilizar que esté dentro del controller
