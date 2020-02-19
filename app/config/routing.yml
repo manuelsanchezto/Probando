@@ -5,3 +5,7 @@ app:
 login:
     path:     /login
     defaults: { _controller: AppBundle:Security:login }
+    
+admin:
+    path:     /admin
+    defaults: { _controller: AppBundle:AdminController }
