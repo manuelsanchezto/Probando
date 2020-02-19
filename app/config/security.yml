@@ -31,9 +31,8 @@ security:
             default_target_path: admin
             always_use_default_target_path: true
             
-        logout:
-            path:   /logout
-            target: /
+            logout:
+                path:   /logout
 
     access_control:
         - { path: '^/login', roles: IS_AUTHENTICATED_ANONYMOUSLY }
